@@ -29,6 +29,7 @@ def hirst_painting(dot_size = 20, no_rows = 10, no_columns = 10, list_of_colours
             jimmy.teleport(x=x_distance, y=None, fill_gap=False)
         y_position = jimmy.position()[1] + gap
         jimmy.teleport(x=init_x_position, y=y_position, fill_gap=False)
+    jimmy.hideturtle()
 
 hirst_painting()
 
